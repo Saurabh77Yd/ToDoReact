@@ -1,0 +1,40 @@
+.heading {
+  font-size: 100px;
+  margin: 0;
+  padding: 10px;
+  color: beige;
+}
+.input-box {
+  height: 35px;
+  width: 250px;
+  margin-left: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.input-box::placeholder {
+  color: rgb(9, 81, 149);
+  font-weight: bold;
+  padding: 10px;
+}
+.form-box {
+  margin-left: 25px;
+}
+.submitbtn {
+  height: 40px;
+  width: 120px;
+  margin: 20px;
+  /* margin-left: 20px; */
+  border-radius: 5px;
+  background-color: #535bf2;
+  color: beige;
+  font-weight: bold;
+}
+.submitbtn:hover {
+  background-color: #747bff;
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    font-size: 50px;
+  }
+}

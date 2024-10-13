@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures full height of the viewport */
+  width: 100%;
+  background-color: rgb(127, 193, 255);
+}

@@ -1,0 +1,53 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 25px;
+  margin-left: -70px;
+}
+
+.list-text {
+  font-size: 30px;
+  width: 145px;
+  flex: 4;
+}
+.one-item {
+  margin: 10px;
+  border: 2px solid #747bff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.com-btn,
+.del-btn {
+  font-size: 20px;
+  margin-left: 20px;
+  flex: 1;
+  border-radius: 8px;
+  background-color: #747bff;
+  color: beige;
+}
+.com-btn:hover {
+  background-color: #535bf2;
+}
+
+.del-btn:hover {
+  background-color: #535bf2;
+}
+
+@media screen and (max-width: 800px) {
+  .one-item {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .one-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .com-btn {
+    margin: 10px;
+  }
+}
